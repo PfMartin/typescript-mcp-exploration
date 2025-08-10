@@ -11,9 +11,11 @@
   "scripts": {
     "build": "npx tsc",
     "build:watch": "npx tsc --watch",
-    "start": "node dist/server.js"
+    "server:start": "node dist/server.js",
+    "server:inspect": "set DANGEROUSLY_OMIT_AUHT=true && npx @modelcontextprotocol/inspector npm run server:start"
   },
   "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.16.2",
     "@types/node": "^24.2.1",
     "typescript": "^5.9.2"
   },
