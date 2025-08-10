@@ -1,0 +1,23 @@
+{
+  "name": "typescript-mcp-server",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "author": "PfMartin",
+  "keywords": [
+    "mcp",
+    "typescript"
+  ],
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "npx tsc",
+    "build:watch": "npx tsc --watch",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2"
+  }
+}
