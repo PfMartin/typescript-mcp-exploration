@@ -12,7 +12,7 @@
     "build": "npx tsc",
     "build:watch": "npx tsc --watch",
     "server:start": "npx tsx server.ts",
-    "server:inspect": "set DANGEROUSLY_OMIT_AUHT=true && npx @modelcontextprotocol/inspector npm run server:start"
+    "server:inspect": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run server:start"
   },
   "devDependencies": {
     "@modelcontextprotocol/inspector": "^0.16.2",

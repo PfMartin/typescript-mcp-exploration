@@ -22,9 +22,9 @@
   },
   {
     "id": 4,
-    "name": "test",
-    "email": "test",
-    "address": "test",
-    "phone": "test"
+    "name": "another one",
+    "email": "anotherone@email.com",
+    "address": "testaddress",
+    "phone": "123456"
   }
 ]
